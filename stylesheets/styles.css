@@ -22,7 +22,7 @@ p, ul, ol, table, pre, dl {
 }
 /*TEXT STYLES YABISH*/
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #F6F6F6;
   line-height: 80px;
   font-weight: 600;
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #F6F6F6;
   letter-spacing: 2px;
   line-height: 55px;
@@ -38,21 +38,21 @@ h2 {
   text-transform: uppercase;
 }
 h2.tag{
-  font-size: 35px;
+  font-size: 25px;
   color: #F6F6F6;
   letter-spacing: 1.2px;
   line-height: 48px;
   font-weight: 200;
 }
 h3{
-  font-size: 35px;
+  font-size: 25px;
   color: #F6F6F6;
   letter-spacing: 1.2px;
   line-height: 49px;
   font-weight: 200;
 }
 h4{
-  font-size: 26px;
+  font-size: 16px;
   color: #F6F6F6;
   letter-spacing: 0.93px;
   line-height: 38px;
@@ -63,14 +63,14 @@ h4.caps{
   font-weight: 200;
 }
 h5{
-  font-size: 30px;
+  font-size: 20px;
   color: #F6F6F6;
   letter-spacing: 0.93px;
   line-height: 38px;
   font-weight: 100;
 }
 p{
-  font-size: 24px;
+  font-size: 20px;
   color: #063D50;
   line-height: 32px;
 }
@@ -82,7 +82,7 @@ a {
 .button{
   background: #00A3DA;
   border-radius: 12px;
-  font-size: 30px;
+  font-size: 20px;
   color: #F6F6F6;
   line-height: 38px;
   padding-top:25px;
@@ -169,6 +169,33 @@ hr{
   margin-right: 50px;
   float: right;
   text-align: left;
+  margin-top: 50px;
+}
+.categories{
+  background: #EFEFEF;
+}
+.cta{
+    padding-top: 100px;
+
+  background: url('../images/cta-bg.png');
+}
+.cta-half{
+  width: 30%;
+  margin-right: 50px;
+  float: right;
+  text-align: left;
+  margin-top: 150px;
+}
+.cta-half .button{
+  margin-bottom: 50px;
+}
+#footer{
+  height: 100px;
+  background: #312D2D;
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 100px;
 }
 
 .card-slider {  position:relative; width:500px; height:332px; }
@@ -275,41 +302,3 @@ hr {
  animation-delay:4s;
 }
 
-/*@-webkit-keyframes blend-fade {
- 0%   { 
-    mix-blend-mode: overlay;
-   }
-  100% { 
-    mix-blend-mode:normal;
-   }
-}
-@-moz-keyframes blend-fade {
- 0%   { 
-    mix-blend-mode: overlay;
-   }
-  100% { 
-    mix-blend-mode:normal;
-   }
-}
-@-o-keyframes blend-fade{
-  0%   { 
-    mix-blend-mode: overlay;
-   }
-  100% { 
-    mix-blend-mode:normal;
-   }
-}
-@keyframes blend-fade {
-  0%   { 
-    mix-blend-mode: overlay;
-   }
-  100% { 
-    mix-blend-mode:normal;
-   }
-}
-.blended {
-  -webkit-animation: blend-fade 4s ;
-  -moz-animation:    blend-fade 4s ;
-  -o-animation:      blend-fade 4s ;
-  animation:         blend-fade 4s ;
-}*/
