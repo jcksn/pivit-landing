@@ -27,7 +27,6 @@ h1 {
   line-height: 80px;
   font-weight: 600;
   text-transform: uppercase;
-
 }
 
 h2 {
@@ -94,10 +93,10 @@ a {
   width: 20%;
   text-transform: uppercase;
   margin: 10% auto;
-
 }
 .hero{
   background: url('../images/hero.png') no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   padding-top: 2%;
@@ -112,6 +111,7 @@ a {
 #hero-text{
   margin-top: 5%;
   text-align: center;
+
 }
 .nav{
   float: right;
@@ -146,14 +146,31 @@ hr{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+
 }
 .pix{
   background: url('../images/pix-section-bg.png');
-
+ background-attachment: fixed;
+  background-size: 200%;
+}
+.example{
+  background: url('../images/ex-section-bg.png');
+}
+.card-slider{
+  width: 373px;
+  margin-left: 50px;
+  float:left;
+}
+.text-half{
+  width: 30%;
+  margin-right: 50px;
+  float: right;
+  text-align: left;
 }
 
-
-
+.card-slider { position: relative; overflow: auto; }
+    .card-slider li { list-style: none; }
+        .card-slider ul li { float: left; }
 /*MEDIA QUERIES*/
 @media print, screen and (max-width: 720px) {
   body {
@@ -230,6 +247,7 @@ hr{
     opacity: .5; width: 50%;
    }
 }
+
 hr {
   -webkit-animation: hrgrow 2s ;
   -moz-animation:    hrgrow 2s ;
@@ -250,3 +268,46 @@ hr {
  -webkit-animation-delay:3s;
  animation-delay:3s;
 }
+.delay4{ 
+ -webkit-animation-delay:4s;
+ animation-delay:4s;
+}
+
+/*@-webkit-keyframes blend-fade {
+ 0%   { 
+    mix-blend-mode: overlay;
+   }
+  100% { 
+    mix-blend-mode:normal;
+   }
+}
+@-moz-keyframes blend-fade {
+ 0%   { 
+    mix-blend-mode: overlay;
+   }
+  100% { 
+    mix-blend-mode:normal;
+   }
+}
+@-o-keyframes blend-fade{
+  0%   { 
+    mix-blend-mode: overlay;
+   }
+  100% { 
+    mix-blend-mode:normal;
+   }
+}
+@keyframes blend-fade {
+  0%   { 
+    mix-blend-mode: overlay;
+   }
+  100% { 
+    mix-blend-mode:normal;
+   }
+}
+.blended {
+  -webkit-animation: blend-fade 4s ;
+  -moz-animation:    blend-fade 4s ;
+  -o-animation:      blend-fade 4s ;
+  animation:         blend-fade 4s ;
+}*/
