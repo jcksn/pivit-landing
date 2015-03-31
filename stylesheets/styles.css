@@ -146,6 +146,7 @@ hr{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  
 
 }
 .pix{
@@ -155,22 +156,23 @@ hr{
 }
 .example{
   background: url('../images/ex-section-bg.png');
+   background-attachment: fixed;
+  background-size: 200%;
 }
 .card-slider{
-  width: 373px;
+  width: 450px;
   margin-left: 50px;
   float:left;
 }
 .text-half{
-  width: 30%;
+  width: 50%;
   margin-right: 50px;
   float: right;
   text-align: left;
 }
 
-.card-slider { position: relative; overflow: auto; }
-    .card-slider li { list-style: none; }
-        .card-slider ul li { float: left; }
+.card-slider {  position:relative; width:500px; height:332px; }
+.card-slider img { position:absolute; left:0; top:0; }
 /*MEDIA QUERIES*/
 @media print, screen and (max-width: 720px) {
   body {
